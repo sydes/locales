@@ -14,7 +14,7 @@ class Ru extends Locale
     private $nativeName = 'Русский';
     private $isRtl = false;
     
-    public function date($format)
+    public function date($format, $timestamp = null)
     {
         $translate = [
             'am' => 'дп', 'pm' => 'пп', 'AM' => 'ДП', 'PM' => 'ПП',
@@ -40,7 +40,7 @@ class Ru extends Locale
             'September' => 'Сентября', 'October'  => 'Октября', 'November' => 'Ноября', 'December' => 'Декабря',
         ];
 
-        $date = func_num_args() == 2 ? date($format, func_get_arg(1)) : date($format);
+        $date = is_null($timestamp) ? date($format) : date($format, $timestamp);
         $translate = array_merge($translate, $months);
 
         return strtr($date, $translate);
