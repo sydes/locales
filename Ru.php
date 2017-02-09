@@ -14,7 +14,7 @@ class Ru extends Locale
     private $nativeName = 'Русский';
     private $isRtl = false;
     
-    public function date()
+    public function date($format)
     {
         $translate = [
             'am' => 'дп', 'pm' => 'пп', 'AM' => 'ДП', 'PM' => 'ПП',
