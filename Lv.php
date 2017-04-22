@@ -2,8 +2,8 @@
 
 namespace Locales;
 
-use App\L10n\Locale;
-use App\L10n\Plural\Rule3;
+use Sydes\L10n\Locale;
+use Sydes\L10n\Plural\Rule3;
 
 class Lv extends Locale
 {

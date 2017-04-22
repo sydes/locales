@@ -2,8 +2,8 @@
 
 namespace Locales;
 
-use App\L10n\Locale;
-use App\L10n\Plural\Rule2;
+use Sydes\L10n\Locale;
+use Sydes\L10n\Plural\Rule2;
 
 class Tg extends Locale
 {

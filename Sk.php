@@ -2,8 +2,8 @@
 
 namespace Locales;
 
-use App\L10n\Locale;
-use App\L10n\Plural\Rule8;
+use Sydes\L10n\Locale;
+use Sydes\L10n\Plural\Rule8;
 
 class Sk extends Locale
 {
