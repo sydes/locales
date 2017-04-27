@@ -9,8 +9,8 @@ class Tk extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'tk';
-    private $englishName = 'Turkmen';
-    private $nativeName = 'Türkmen';
-    private $isRtl = false;
+    protected $isoCode = 'tk';
+    protected $englishName = 'Turkmen';
+    protected $nativeName = 'Türkmen';
+    protected $isRtl = false;
 }

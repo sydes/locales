@@ -9,8 +9,8 @@ class Wo extends Locale
 {
     use Rule0;
 
-    private $isoCode = 'wo';
-    private $englishName = 'Wolof';
-    private $nativeName = 'Wollof';
-    private $isRtl = false;
+    protected $isoCode = 'wo';
+    protected $englishName = 'Wolof';
+    protected $nativeName = 'Wollof';
+    protected $isRtl = false;
 }

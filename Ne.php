@@ -9,8 +9,8 @@ class Ne extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'ne';
-    private $englishName = 'Nepali';
-    private $nativeName = 'नेपाली';
-    private $isRtl = false;
+    protected $isoCode = 'ne';
+    protected $englishName = 'Nepali';
+    protected $nativeName = 'नेपाली';
+    protected $isRtl = false;
 }

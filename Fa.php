@@ -9,8 +9,8 @@ class Fa extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'fa';
-    private $englishName = 'Persian';
-    private $nativeName = '‫فارسی‬';
-    private $isRtl = true;
+    protected $isoCode = 'fa';
+    protected $englishName = 'Persian';
+    protected $nativeName = '‫فارسی‬';
+    protected $isRtl = true;
 }

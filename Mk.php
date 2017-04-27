@@ -9,8 +9,8 @@ class Mk extends Locale
 {
     use Rule14;
 
-    private $isoCode = 'mk';
-    private $englishName = 'Macedonian';
-    private $nativeName = 'македонски јазик';
-    private $isRtl = false;
+    protected $isoCode = 'mk';
+    protected $englishName = 'Macedonian';
+    protected $nativeName = 'македонски јазик';
+    protected $isRtl = false;
 }

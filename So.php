@@ -9,8 +9,8 @@ class So extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'so';
-    private $englishName = 'Somali';
-    private $nativeName = 'Soomaaliga';
-    private $isRtl = false;
+    protected $isoCode = 'so';
+    protected $englishName = 'Somali';
+    protected $nativeName = 'Soomaaliga';
+    protected $isRtl = false;
 }

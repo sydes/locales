@@ -9,8 +9,8 @@ class Fo extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'fo';
-    private $englishName = 'Faroese';
-    private $nativeName = 'Føroyskt';
-    private $isRtl = false;
+    protected $isoCode = 'fo';
+    protected $englishName = 'Faroese';
+    protected $nativeName = 'Føroyskt';
+    protected $isRtl = false;
 }

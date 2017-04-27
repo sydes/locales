@@ -9,8 +9,8 @@ class Pa extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'pa';
-    private $englishName = 'Panjabi';
-    private $nativeName = 'ਪੰਜਾਬੀ‫پنجابی‬';
-    private $isRtl = true;
+    protected $isoCode = 'pa';
+    protected $englishName = 'Panjabi';
+    protected $nativeName = 'ਪੰਜਾਬੀ‫پنجابی‬';
+    protected $isRtl = true;
 }

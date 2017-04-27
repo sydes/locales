@@ -9,8 +9,8 @@ class Mi extends Locale
 {
     use Rule2;
 
-    private $isoCode = 'mi';
-    private $englishName = '';
-    private $nativeName = 'te reo Māori';
-    private $isRtl = false;
+    protected $isoCode = 'mi';
+    protected $englishName = '';
+    protected $nativeName = 'te reo Māori';
+    protected $isRtl = false;
 }

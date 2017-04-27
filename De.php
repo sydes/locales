@@ -9,8 +9,8 @@ class De extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'de';
-    private $englishName = 'German';
-    private $nativeName = 'Deutsch';
-    private $isRtl = false;
+    protected $isoCode = 'de';
+    protected $englishName = 'German';
+    protected $nativeName = 'Deutsch';
+    protected $isRtl = false;
 }

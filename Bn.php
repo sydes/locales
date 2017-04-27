@@ -9,8 +9,8 @@ class Bn extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'bn';
-    private $englishName = 'Bengali';
-    private $nativeName = 'বাংলা';
-    private $isRtl = false;
+    protected $isoCode = 'bn';
+    protected $englishName = 'Bengali';
+    protected $nativeName = 'বাংলা';
+    protected $isRtl = false;
 }

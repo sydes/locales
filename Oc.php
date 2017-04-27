@@ -9,8 +9,8 @@ class Oc extends Locale
 {
     use Rule2;
 
-    private $isoCode = 'oc';
-    private $englishName = 'Occitan';
-    private $nativeName = 'Occitan';
-    private $isRtl = false;
+    protected $isoCode = 'oc';
+    protected $englishName = 'Occitan';
+    protected $nativeName = 'Occitan';
+    protected $isRtl = false;
 }

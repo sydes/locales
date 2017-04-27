@@ -9,8 +9,8 @@ class Br extends Locale
 {
     use Rule2;
 
-    private $isoCode = 'br';
-    private $englishName = 'Breton';
-    private $nativeName = 'brezhoneg';
-    private $isRtl = false;
+    protected $isoCode = 'br';
+    protected $englishName = 'Breton';
+    protected $nativeName = 'brezhoneg';
+    protected $isRtl = false;
 }

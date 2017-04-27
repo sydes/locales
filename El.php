@@ -9,8 +9,8 @@ class El extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'el';
-    private $englishName = 'Greek';
-    private $nativeName = 'Ελληνικά';
-    private $isRtl = false;
+    protected $isoCode = 'el';
+    protected $englishName = 'Greek';
+    protected $nativeName = 'Ελληνικά';
+    protected $isRtl = false;
 }

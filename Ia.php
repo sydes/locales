@@ -9,8 +9,8 @@ class Ia extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'ia';
-    private $englishName = 'Interlingua';
-    private $nativeName = 'Interlingua';
-    private $isRtl = false;
+    protected $isoCode = 'ia';
+    protected $englishName = 'Interlingua';
+    protected $nativeName = 'Interlingua';
+    protected $isRtl = false;
 }

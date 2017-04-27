@@ -9,8 +9,8 @@ class Hu extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'hu';
-    private $englishName = 'Hungarian';
-    private $nativeName = 'Magyar';
-    private $isRtl = false;
+    protected $isoCode = 'hu';
+    protected $englishName = 'Hungarian';
+    protected $nativeName = 'Magyar';
+    protected $isRtl = false;
 }

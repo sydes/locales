@@ -9,8 +9,8 @@ class Ms extends Locale
 {
     use Rule0;
 
-    private $isoCode = 'ms';
-    private $englishName = 'Malay';
-    private $nativeName = 'bahasa Melayu‫بهاس ملايو‬';
-    private $isRtl = true;
+    protected $isoCode = 'ms';
+    protected $englishName = 'Malay';
+    protected $nativeName = 'bahasa Melayu‫بهاس ملايو‬';
+    protected $isRtl = true;
 }

@@ -9,8 +9,8 @@ class Gd extends Locale
 {
     use Rule4;
 
-    private $isoCode = 'gd';
-    private $englishName = 'Gaelic';
-    private $nativeName = 'Gàidhlig';
-    private $isRtl = false;
+    protected $isoCode = 'gd';
+    protected $englishName = 'Gaelic';
+    protected $nativeName = 'Gàidhlig';
+    protected $isRtl = false;
 }

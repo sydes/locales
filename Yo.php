@@ -9,8 +9,8 @@ class Yo extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'yo';
-    private $englishName = 'Yoruba';
-    private $nativeName = 'Yorùbá';
-    private $isRtl = false;
+    protected $isoCode = 'yo';
+    protected $englishName = 'Yoruba';
+    protected $nativeName = 'Yorùbá';
+    protected $isRtl = false;
 }

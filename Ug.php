@@ -9,8 +9,8 @@ class Ug extends Locale
 {
     use Rule0;
 
-    private $isoCode = 'ug';
-    private $englishName = 'Uighur';
-    private $nativeName = 'Uyƣurqə‫ئۇيغۇرچ ‬';
-    private $isRtl = true;
+    protected $isoCode = 'ug';
+    protected $englishName = 'Uighur';
+    protected $nativeName = 'Uyƣurqə‫ئۇيغۇرچ ‬';
+    protected $isRtl = true;
 }

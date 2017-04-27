@@ -9,8 +9,8 @@ class Bo extends Locale
 {
     use Rule0;
 
-    private $isoCode = 'bo';
-    private $englishName = 'Tibetan';
-    private $nativeName = 'བོད་ཡིག';
-    private $isRtl = false;
+    protected $isoCode = 'bo';
+    protected $englishName = 'Tibetan';
+    protected $nativeName = 'བོད་ཡིག';
+    protected $isRtl = false;
 }

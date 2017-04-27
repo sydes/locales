@@ -9,8 +9,8 @@ class Ar extends Locale
 {
     use Rule12;
 
-    private $isoCode = 'ar';
-    private $englishName = 'Arabic';
-    private $nativeName = '‫العربية‬';
-    private $isRtl = true;
+    protected $isoCode = 'ar';
+    protected $englishName = 'Arabic';
+    protected $nativeName = '‫العربية‬';
+    protected $isRtl = true;
 }

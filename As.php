@@ -9,8 +9,8 @@ class As extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'as';
-    private $englishName = 'Assamese';
-    private $nativeName = 'অসমীয়া';
-    private $isRtl = false;
+    protected $isoCode = 'as';
+    protected $englishName = 'Assamese';
+    protected $nativeName = 'অসমীয়া';
+    protected $isRtl = false;
 }

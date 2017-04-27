@@ -9,8 +9,8 @@ class Am extends Locale
 {
     use Rule2;
 
-    private $isoCode = 'am';
-    private $englishName = 'Amharic';
-    private $nativeName = 'አማርኛ';
-    private $isRtl = false;
+    protected $isoCode = 'am';
+    protected $englishName = 'Amharic';
+    protected $nativeName = 'አማርኛ';
+    protected $isRtl = false;
 }

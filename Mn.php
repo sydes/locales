@@ -9,8 +9,8 @@ class Mn extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'mn';
-    private $englishName = 'Mongolian';
-    private $nativeName = 'Монгол';
-    private $isRtl = false;
+    protected $isoCode = 'mn';
+    protected $englishName = 'Mongolian';
+    protected $nativeName = 'Монгол';
+    protected $isRtl = false;
 }

@@ -9,8 +9,8 @@ class Sw extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'sw';
-    private $englishName = 'Swahili';
-    private $nativeName = 'Kiswahili';
-    private $isRtl = false;
+    protected $isoCode = 'sw';
+    protected $englishName = 'Swahili';
+    protected $nativeName = 'Kiswahili';
+    protected $isRtl = false;
 }

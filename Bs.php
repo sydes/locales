@@ -9,8 +9,8 @@ class Bs extends Locale
 {
     use Rule7;
 
-    private $isoCode = 'bs';
-    private $englishName = 'Bosnian';
-    private $nativeName = 'bosanski jezik';
-    private $isRtl = false;
+    protected $isoCode = 'bs';
+    protected $englishName = 'Bosnian';
+    protected $nativeName = 'bosanski jezik';
+    protected $isRtl = false;
 }

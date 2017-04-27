@@ -9,8 +9,8 @@ class Sr extends Locale
 {
     use Rule7;
 
-    private $isoCode = 'sr';
-    private $englishName = 'Serbian';
-    private $nativeName = 'српски језик';
-    private $isRtl = false;
+    protected $isoCode = 'sr';
+    protected $englishName = 'Serbian';
+    protected $nativeName = 'српски језик';
+    protected $isRtl = false;
 }

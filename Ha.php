@@ -9,8 +9,8 @@ class Ha extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'ha';
-    private $englishName = 'Hausa';
-    private $nativeName = '‫هَوُسَ‬';
-    private $isRtl = true;
+    protected $isoCode = 'ha';
+    protected $englishName = 'Hausa';
+    protected $nativeName = '‫هَوُسَ‬';
+    protected $isRtl = true;
 }

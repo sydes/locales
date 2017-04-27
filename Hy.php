@@ -9,8 +9,8 @@ class Hy extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'hy';
-    private $englishName = 'Armenian';
-    private $nativeName = 'Հայերեն';
-    private $isRtl = false;
+    protected $isoCode = 'hy';
+    protected $englishName = 'Armenian';
+    protected $nativeName = 'Հայերեն';
+    protected $isRtl = false;
 }

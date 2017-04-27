@@ -9,8 +9,8 @@ class Lo extends Locale
 {
     use Rule0;
 
-    private $isoCode = 'lo';
-    private $englishName = 'Lao';
-    private $nativeName = 'ພາສາລາວ';
-    private $isRtl = false;
+    protected $isoCode = 'lo';
+    protected $englishName = 'Lao';
+    protected $nativeName = 'ພາສາລາວ';
+    protected $isRtl = false;
 }

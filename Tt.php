@@ -9,8 +9,8 @@ class Tt extends Locale
 {
     use Rule0;
 
-    private $isoCode = 'tt';
-    private $englishName = 'Tatar';
-    private $nativeName = 'татарча‬';
-    private $isRtl = true;
+    protected $isoCode = 'tt';
+    protected $englishName = 'Tatar';
+    protected $nativeName = 'татарча‬';
+    protected $isRtl = true;
 }

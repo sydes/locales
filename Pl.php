@@ -9,8 +9,8 @@ class Pl extends Locale
 {
     use Rule9;
 
-    private $isoCode = 'pl';
-    private $englishName = 'Polish';
-    private $nativeName = 'Polski';
-    private $isRtl = false;
+    protected $isoCode = 'pl';
+    protected $englishName = 'Polish';
+    protected $nativeName = 'Polski';
+    protected $isRtl = false;
 }

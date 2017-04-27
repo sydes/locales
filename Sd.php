@@ -9,8 +9,8 @@ class Sd extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'sd';
-    private $englishName = 'Sindhi';
-    private $nativeName = 'सिन्धी‫سنڌي، سندھی‬';
-    private $isRtl = false;
+    protected $isoCode = 'sd';
+    protected $englishName = 'Sindhi';
+    protected $nativeName = 'सिन्धी‫سنڌي، سندھی‬';
+    protected $isRtl = false;
 }

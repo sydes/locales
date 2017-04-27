@@ -9,8 +9,8 @@ class Nb extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'nb';
-    private $englishName = '';
-    private $nativeName = 'Norsk';
-    private $isRtl = false;
+    protected $isoCode = 'nb';
+    protected $englishName = '';
+    protected $nativeName = 'Norsk';
+    protected $isRtl = false;
 }

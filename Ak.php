@@ -9,8 +9,8 @@ class Ak extends Locale
 {
     use Rule2;
 
-    private $isoCode = 'ak';
-    private $englishName = 'Akan';
-    private $nativeName = 'Akan';
-    private $isRtl = false;
+    protected $isoCode = 'ak';
+    protected $englishName = 'Akan';
+    protected $nativeName = 'Akan';
+    protected $isRtl = false;
 }

@@ -9,8 +9,8 @@ class Ca extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'ca';
-    private $englishName = 'Catalan';
-    private $nativeName = 'Català';
-    private $isRtl = false;
+    protected $isoCode = 'ca';
+    protected $englishName = 'Catalan';
+    protected $nativeName = 'Català';
+    protected $isRtl = false;
 }

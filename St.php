@@ -9,8 +9,8 @@ class St extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'st';
-    private $englishName = '';
-    private $nativeName = 'seSotho';
-    private $isRtl = false;
+    protected $isoCode = 'st';
+    protected $englishName = '';
+    protected $nativeName = 'seSotho';
+    protected $isRtl = false;
 }

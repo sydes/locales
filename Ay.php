@@ -9,8 +9,8 @@ class Ay extends Locale
 {
     use Rule0;
 
-    private $isoCode = 'ay';
-    private $englishName = 'Aymara';
-    private $nativeName = 'aymar aru';
-    private $isRtl = false;
+    protected $isoCode = 'ay';
+    protected $englishName = 'Aymara';
+    protected $nativeName = 'aymar aru';
+    protected $isRtl = false;
 }

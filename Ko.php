@@ -9,8 +9,8 @@ class Ko extends Locale
 {
     use Rule0;
 
-    private $isoCode = 'ko';
-    private $englishName = 'Korean';
-    private $nativeName = '한국어';
-    private $isRtl = false;
+    protected $isoCode = 'ko';
+    protected $englishName = 'Korean';
+    protected $nativeName = '한국어';
+    protected $isRtl = false;
 }

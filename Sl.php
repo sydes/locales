@@ -9,8 +9,8 @@ class Sl extends Locale
 {
     use Rule10;
 
-    private $isoCode = 'sl';
-    private $englishName = 'Slovenian';
-    private $nativeName = 'slovenščina';
-    private $isRtl = false;
+    protected $isoCode = 'sl';
+    protected $englishName = 'Slovenian';
+    protected $nativeName = 'slovenščina';
+    protected $isRtl = false;
 }

@@ -9,8 +9,8 @@ class Dz extends Locale
 {
     use Rule0;
 
-    private $isoCode = 'dz';
-    private $englishName = 'Dzongkha';
-    private $nativeName = 'རྫོང་ཁ';
-    private $isRtl = false;
+    protected $isoCode = 'dz';
+    protected $englishName = 'Dzongkha';
+    protected $nativeName = 'རྫོང་ཁ';
+    protected $isRtl = false;
 }

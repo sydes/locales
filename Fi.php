@@ -9,8 +9,8 @@ class Fi extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'fi';
-    private $englishName = 'Finnish';
-    private $nativeName = 'Suomen kieli';
-    private $isRtl = false;
+    protected $isoCode = 'fi';
+    protected $englishName = 'Finnish';
+    protected $nativeName = 'Suomen kieli';
+    protected $isRtl = false;
 }

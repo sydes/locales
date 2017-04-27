@@ -9,8 +9,8 @@ class No extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'no';
-    private $englishName = 'Norwegian';
-    private $nativeName = 'Norsk';
-    private $isRtl = false;
+    protected $isoCode = 'no';
+    protected $englishName = 'Norwegian';
+    protected $nativeName = 'Norsk';
+    protected $isRtl = false;
 }

@@ -9,8 +9,8 @@ class Cs extends Locale
 {
     use Rule8;
 
-    private $isoCode = 'cs';
-    private $englishName = 'Czech';
-    private $nativeName = 'čeština';
-    private $isRtl = false;
+    protected $isoCode = 'cs';
+    protected $englishName = 'Czech';
+    protected $nativeName = 'čeština';
+    protected $isRtl = false;
 }

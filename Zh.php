@@ -9,8 +9,8 @@ class Zh extends Locale
 {
     use Rule0;
 
-    private $isoCode = 'zh';
-    private $englishName = 'Chinese';
-    private $nativeName = '中文、汉语、漢語';
-    private $isRtl = false;
+    protected $isoCode = 'zh';
+    protected $englishName = 'Chinese';
+    protected $nativeName = '中文、汉语、漢語';
+    protected $isRtl = false;
 }

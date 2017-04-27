@@ -9,8 +9,8 @@ class Ta extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'ta';
-    private $englishName = 'Tamil';
-    private $nativeName = 'தமிழ்';
-    private $isRtl = false;
+    protected $isoCode = 'ta';
+    protected $englishName = 'Tamil';
+    protected $nativeName = 'தமிழ்';
+    protected $isRtl = false;
 }

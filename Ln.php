@@ -9,8 +9,8 @@ class Ln extends Locale
 {
     use Rule2;
 
-    private $isoCode = 'ln';
-    private $englishName = 'Lingala';
-    private $nativeName = 'Lingála';
-    private $isRtl = false;
+    protected $isoCode = 'ln';
+    protected $englishName = 'Lingala';
+    protected $nativeName = 'Lingála';
+    protected $isRtl = false;
 }

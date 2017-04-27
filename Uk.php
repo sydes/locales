@@ -9,8 +9,8 @@ class Uk extends Locale
 {
     use Rule7;
 
-    private $isoCode = 'uk';
-    private $englishName = 'Ukrainian';
-    private $nativeName = 'українська мова';
-    private $isRtl = false;
+    protected $isoCode = 'uk';
+    protected $englishName = 'Ukrainian';
+    protected $nativeName = 'українська мова';
+    protected $isRtl = false;
 }

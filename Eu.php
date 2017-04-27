@@ -9,8 +9,8 @@ class Eu extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'eu';
-    private $englishName = 'Basque';
-    private $nativeName = 'euskara';
-    private $isRtl = false;
+    protected $isoCode = 'eu';
+    protected $englishName = 'Basque';
+    protected $nativeName = 'euskara';
+    protected $isRtl = false;
 }

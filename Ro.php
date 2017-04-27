@@ -9,8 +9,8 @@ class Ro extends Locale
 {
     use Rule5;
 
-    private $isoCode = 'ro';
-    private $englishName = 'Romanian';
-    private $nativeName = 'română';
-    private $isRtl = false;
+    protected $isoCode = 'ro';
+    protected $englishName = 'Romanian';
+    protected $nativeName = 'română';
+    protected $isRtl = false;
 }

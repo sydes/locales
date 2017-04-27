@@ -9,8 +9,8 @@ class Is extends Locale
 {
     use Rule15;
 
-    private $isoCode = 'is';
-    private $englishName = 'Icelandic';
-    private $nativeName = 'Íslenska';
-    private $isRtl = false;
+    protected $isoCode = 'is';
+    protected $englishName = 'Icelandic';
+    protected $nativeName = 'Íslenska';
+    protected $isRtl = false;
 }

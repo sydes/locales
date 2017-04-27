@@ -9,8 +9,8 @@ class Ga extends Locale
 {
     use Rule11;
 
-    private $isoCode = 'ga';
-    private $englishName = 'Irish';
-    private $nativeName = 'Gaeilge';
-    private $isRtl = false;
+    protected $isoCode = 'ga';
+    protected $englishName = 'Irish';
+    protected $nativeName = 'Gaeilge';
+    protected $isRtl = false;
 }

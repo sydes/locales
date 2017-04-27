@@ -9,8 +9,8 @@ class Pt extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'pt';
-    private $englishName = 'Portuguese';
-    private $nativeName = 'Português';
-    private $isRtl = false;
+    protected $isoCode = 'pt';
+    protected $englishName = 'Portuguese';
+    protected $nativeName = 'Português';
+    protected $isRtl = false;
 }

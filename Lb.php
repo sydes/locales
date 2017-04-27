@@ -9,8 +9,8 @@ class Lb extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'lb';
-    private $englishName = 'Luxembourgish';
-    private $nativeName = 'Lëtzebuergesch';
-    private $isRtl = false;
+    protected $isoCode = 'lb';
+    protected $englishName = 'Luxembourgish';
+    protected $nativeName = 'Lëtzebuergesch';
+    protected $isRtl = false;
 }

@@ -9,8 +9,8 @@ class Si extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'si';
-    private $englishName = 'Sinhala';
-    private $nativeName = 'සිංහල';
-    private $isRtl = false;
+    protected $isoCode = 'si';
+    protected $englishName = 'Sinhala';
+    protected $nativeName = 'සිංහල';
+    protected $isRtl = false;
 }

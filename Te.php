@@ -9,8 +9,8 @@ class Te extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'te';
-    private $englishName = 'Telugu';
-    private $nativeName = 'తెలుగు';
-    private $isRtl = false;
+    protected $isoCode = 'te';
+    protected $englishName = 'Telugu';
+    protected $nativeName = 'తెలుగు';
+    protected $isRtl = false;
 }

@@ -9,8 +9,8 @@ class Th extends Locale
 {
     use Rule0;
 
-    private $isoCode = 'th';
-    private $englishName = 'Thai';
-    private $nativeName = 'ไทย';
-    private $isRtl = false;
+    protected $isoCode = 'th';
+    protected $englishName = 'Thai';
+    protected $nativeName = 'ไทย';
+    protected $isRtl = false;
 }

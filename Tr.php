@@ -9,8 +9,8 @@ class Tr extends Locale
 {
     use Rule2;
 
-    private $isoCode = 'tr';
-    private $englishName = 'Turkish';
-    private $nativeName = 'Türkçe';
-    private $isRtl = false;
+    protected $isoCode = 'tr';
+    protected $englishName = 'Turkish';
+    protected $nativeName = 'Türkçe';
+    protected $isRtl = false;
 }

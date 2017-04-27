@@ -9,8 +9,8 @@ class Kl extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'kl';
-    private $englishName = 'Kalaallisut';
-    private $nativeName = 'kalaallisut';
-    private $isRtl = false;
+    protected $isoCode = 'kl';
+    protected $englishName = 'Kalaallisut';
+    protected $nativeName = 'kalaallisut';
+    protected $isRtl = false;
 }

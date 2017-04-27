@@ -9,8 +9,8 @@ class Gu extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'gu';
-    private $englishName = 'Gujarati';
-    private $nativeName = 'ગુજરાતી';
-    private $isRtl = false;
+    protected $isoCode = 'gu';
+    protected $englishName = 'Gujarati';
+    protected $nativeName = 'ગુજરાતી';
+    protected $isRtl = false;
 }

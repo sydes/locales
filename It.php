@@ -9,8 +9,8 @@ class It extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'it';
-    private $englishName = 'Italian';
-    private $nativeName = 'Italiano';
-    private $isRtl = false;
+    protected $isoCode = 'it';
+    protected $englishName = 'Italian';
+    protected $nativeName = 'Italiano';
+    protected $isRtl = false;
 }

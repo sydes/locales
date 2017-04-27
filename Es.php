@@ -9,8 +9,8 @@ class Es extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'es';
-    private $englishName = 'Spanish';
-    private $nativeName = 'español';
-    private $isRtl = false;
+    protected $isoCode = 'es';
+    protected $englishName = 'Spanish';
+    protected $nativeName = 'español';
+    protected $isRtl = false;
 }

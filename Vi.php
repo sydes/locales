@@ -9,8 +9,8 @@ class Vi extends Locale
 {
     use Rule0;
 
-    private $isoCode = 'vi';
-    private $englishName = 'Vietnamese';
-    private $nativeName = 'Tiếng Việt';
-    private $isRtl = false;
+    protected $isoCode = 'vi';
+    protected $englishName = 'Vietnamese';
+    protected $nativeName = 'Tiếng Việt';
+    protected $isRtl = false;
 }

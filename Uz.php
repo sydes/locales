@@ -9,8 +9,8 @@ class Uz extends Locale
 {
     use Rule2;
 
-    private $isoCode = 'uz';
-    private $englishName = 'Uzbek';
-    private $nativeName = 'O\'zbek';
-    private $isRtl = true;
+    protected $isoCode = 'uz';
+    protected $englishName = 'Uzbek';
+    protected $nativeName = 'O\'zbek';
+    protected $isRtl = true;
 }

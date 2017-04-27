@@ -9,8 +9,8 @@ class Hi extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'hi';
-    private $englishName = 'Hindi';
-    private $nativeName = 'हिन्दी';
-    private $isRtl = false;
+    protected $isoCode = 'hi';
+    protected $englishName = 'Hindi';
+    protected $nativeName = 'हिन्दी';
+    protected $isRtl = false;
 }

@@ -9,8 +9,8 @@ class Ku extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'ku';
-    private $englishName = 'Kurdish';
-    private $nativeName = 'Kurdî‫كوردی‬';
-    private $isRtl = false;
+    protected $isoCode = 'ku';
+    protected $englishName = 'Kurdish';
+    protected $nativeName = 'Kurdî‫كوردی‬';
+    protected $isRtl = false;
 }

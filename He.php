@@ -9,8 +9,8 @@ class He extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'he';
-    private $englishName = 'Hebrew';
-    private $nativeName = '‫עברית‬';
-    private $isRtl = true;
+    protected $isoCode = 'he';
+    protected $englishName = 'Hebrew';
+    protected $nativeName = '‫עברית‬';
+    protected $isRtl = true;
 }

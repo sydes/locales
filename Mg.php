@@ -9,8 +9,8 @@ class Mg extends Locale
 {
     use Rule2;
 
-    private $isoCode = 'mg';
-    private $englishName = 'Malagasy';
-    private $nativeName = 'Malagasy fiteny';
-    private $isRtl = false;
+    protected $isoCode = 'mg';
+    protected $englishName = 'Malagasy';
+    protected $nativeName = 'Malagasy fiteny';
+    protected $isRtl = false;
 }

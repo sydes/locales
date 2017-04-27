@@ -9,8 +9,8 @@ class Af extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'af';
-    private $englishName = 'Afrikaans';
-    private $nativeName = 'Afrikaans';
-    private $isRtl = false;
+    protected $isoCode = 'af';
+    protected $englishName = 'Afrikaans';
+    protected $nativeName = 'Afrikaans';
+    protected $isRtl = false;
 }

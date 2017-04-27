@@ -9,8 +9,8 @@ class Mr extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'mr';
-    private $englishName = 'Marathi';
-    private $nativeName = 'मराठी';
-    private $isRtl = false;
+    protected $isoCode = 'mr';
+    protected $englishName = 'Marathi';
+    protected $nativeName = 'मराठी';
+    protected $isRtl = false;
 }

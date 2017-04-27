@@ -9,8 +9,8 @@ class Gl extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'gl';
-    private $englishName = 'Galician';
-    private $nativeName = 'Galego';
-    private $isRtl = false;
+    protected $isoCode = 'gl';
+    protected $englishName = 'Galician';
+    protected $nativeName = 'Galego';
+    protected $isRtl = false;
 }

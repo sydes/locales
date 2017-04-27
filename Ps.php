@@ -9,8 +9,8 @@ class Ps extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'ps';
-    private $englishName = 'Pashto';
-    private $nativeName = '‫پښتو‬';
-    private $isRtl = false;
+    protected $isoCode = 'ps';
+    protected $englishName = 'Pashto';
+    protected $nativeName = '‫پښتو‬';
+    protected $isRtl = false;
 }

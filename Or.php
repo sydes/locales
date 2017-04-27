@@ -9,8 +9,8 @@ class Or extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'or';
-    private $englishName = 'Oriya';
-    private $nativeName = 'ଓଡ଼ିଆ';
-    private $isRtl = false;
+    protected $isoCode = 'or';
+    protected $englishName = 'Oriya';
+    protected $nativeName = 'ଓଡ଼ିଆ';
+    protected $isRtl = false;
 }

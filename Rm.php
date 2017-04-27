@@ -9,8 +9,8 @@ class Rm extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'rm';
-    private $englishName = '';
-    private $nativeName = 'rumantsch grischun';
-    private $isRtl = false;
+    protected $isoCode = 'rm';
+    protected $englishName = '';
+    protected $nativeName = 'rumantsch grischun';
+    protected $isRtl = false;
 }

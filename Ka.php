@@ -9,8 +9,8 @@ class Ka extends Locale
 {
     use Rule0;
 
-    private $isoCode = 'ka';
-    private $englishName = 'Georgian';
-    private $nativeName = 'ქართული';
-    private $isRtl = false;
+    protected $isoCode = 'ka';
+    protected $englishName = 'Georgian';
+    protected $nativeName = 'ქართული';
+    protected $isRtl = false;
 }

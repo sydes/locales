@@ -9,8 +9,8 @@ class Da extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'da';
-    private $englishName = 'Danish';
-    private $nativeName = 'dansk';
-    private $isRtl = false;
+    protected $isoCode = 'da';
+    protected $englishName = 'Danish';
+    protected $nativeName = 'dansk';
+    protected $isRtl = false;
 }

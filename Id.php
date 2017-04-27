@@ -9,8 +9,8 @@ class Id extends Locale
 {
     use Rule0;
 
-    private $isoCode = 'id';
-    private $englishName = 'Indonesian';
-    private $nativeName = 'Bahasa Indonesia';
-    private $isRtl = false;
+    protected $isoCode = 'id';
+    protected $englishName = 'Indonesian';
+    protected $nativeName = 'Bahasa Indonesia';
+    protected $isRtl = false;
 }

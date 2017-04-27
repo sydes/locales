@@ -9,8 +9,8 @@ class Lv extends Locale
 {
     use Rule3;
 
-    private $isoCode = 'lv';
-    private $englishName = 'Latvian';
-    private $nativeName = 'latviešu valoda';
-    private $isRtl = false;
+    protected $isoCode = 'lv';
+    protected $englishName = 'Latvian';
+    protected $nativeName = 'latviešu valoda';
+    protected $isRtl = false;
 }

@@ -9,8 +9,8 @@ class Ur extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'ur';
-    private $englishName = 'Urdu';
-    private $nativeName = '‫اردو‬';
-    private $isRtl = true;
+    protected $isoCode = 'ur';
+    protected $englishName = 'Urdu';
+    protected $nativeName = '‫اردو‬';
+    protected $isRtl = true;
 }

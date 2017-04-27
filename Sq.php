@@ -9,8 +9,8 @@ class Sq extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'sq';
-    private $englishName = 'Albanian';
-    private $nativeName = 'Shqip';
-    private $isRtl = false;
+    protected $isoCode = 'sq';
+    protected $englishName = 'Albanian';
+    protected $nativeName = 'Shqip';
+    protected $isRtl = false;
 }

@@ -9,8 +9,8 @@ class Fy extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'fy';
-    private $englishName = '';
-    private $nativeName = 'Frysk';
-    private $isRtl = false;
+    protected $isoCode = 'fy';
+    protected $englishName = '';
+    protected $nativeName = 'Frysk';
+    protected $isRtl = false;
 }

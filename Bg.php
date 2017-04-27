@@ -9,8 +9,8 @@ class Bg extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'bg';
-    private $englishName = 'Bulgarian';
-    private $nativeName = 'български език';
-    private $isRtl = false;
+    protected $isoCode = 'bg';
+    protected $englishName = 'Bulgarian';
+    protected $nativeName = 'български език';
+    protected $isRtl = false;
 }

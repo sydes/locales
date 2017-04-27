@@ -9,8 +9,8 @@ class Eo extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'eo';
-    private $englishName = 'Esperanto';
-    private $nativeName = 'Esperanto';
-    private $isRtl = false;
+    protected $isoCode = 'eo';
+    protected $englishName = 'Esperanto';
+    protected $nativeName = 'Esperanto';
+    protected $isRtl = false;
 }

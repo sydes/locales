@@ -9,8 +9,8 @@ class Et extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'et';
-    private $englishName = 'Estonian';
-    private $nativeName = 'Eesti keel';
-    private $isRtl = false;
+    protected $isoCode = 'et';
+    protected $englishName = 'Estonian';
+    protected $nativeName = 'Eesti keel';
+    protected $isRtl = false;
 }

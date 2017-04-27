@@ -9,8 +9,8 @@ class Sv extends Locale
 {
     use Rule1;
 
-    private $isoCode = 'sv';
-    private $englishName = 'Swedish';
-    private $nativeName = 'Svenska';
-    private $isRtl = false;
+    protected $isoCode = 'sv';
+    protected $englishName = 'Swedish';
+    protected $nativeName = 'Svenska';
+    protected $isRtl = false;
 }

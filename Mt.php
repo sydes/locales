@@ -9,8 +9,8 @@ class Mt extends Locale
 {
     use Rule13;
 
-    private $isoCode = 'mt';
-    private $englishName = 'Maltese';
-    private $nativeName = 'Malti';
-    private $isRtl = false;
+    protected $isoCode = 'mt';
+    protected $englishName = 'Maltese';
+    protected $nativeName = 'Malti';
+    protected $isRtl = false;
 }

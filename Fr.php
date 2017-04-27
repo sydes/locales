@@ -9,8 +9,8 @@ class Fr extends Locale
 {
     use Rule2;
 
-    private $isoCode = 'fr';
-    private $englishName = 'French';
-    private $nativeName = 'français';
-    private $isRtl = false;
+    protected $isoCode = 'fr';
+    protected $englishName = 'French';
+    protected $nativeName = 'français';
+    protected $isRtl = false;
 }

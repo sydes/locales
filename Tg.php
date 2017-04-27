@@ -9,8 +9,8 @@ class Tg extends Locale
 {
     use Rule2;
 
-    private $isoCode = 'tg';
-    private $englishName = 'Tajik';
-    private $nativeName = 'тоҷикӣ';
-    private $isRtl = true;
+    protected $isoCode = 'tg';
+    protected $englishName = 'Tajik';
+    protected $nativeName = 'тоҷикӣ';
+    protected $isRtl = true;
 }
